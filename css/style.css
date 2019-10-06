@@ -745,7 +745,8 @@ body {
   @media (max-width: 850px) {
     #dashboard-main {
       grid-template-columns: 1fr;
-      grid-template-areas: "image-welcome" "welcome";
+      grid-template-areas: "image-welcome"
+ "welcome";
       padding: 0 2rem; } }
   #dashboard-main .welcome-message {
     grid-area: welcome; }
