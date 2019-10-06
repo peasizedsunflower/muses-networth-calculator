@@ -1351,7 +1351,8 @@
           background-size: 20px 20px;
           padding-left: 30px; }
 
-input[type=text]{
+input[type=text],
+input[type=email] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -1383,4 +1384,7 @@ hr{
 }
 .landing-body .upper-section .intro-text input[type=submit]:hover{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.contact-form{
+  margin-top: 2rem;
 }
